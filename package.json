@@ -2,6 +2,11 @@
   "name": "@kiyutink/fbp",
   "version": "0.0.1",
   "description": "A cli to scaffold projects from git repositories",
+  "homepage": "https://github.com/kiyutink/bp-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiyutink/bp-cli"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
