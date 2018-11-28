@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
+    "cli-spinner": "^0.2.8",
     "minimist": "^1.2.0",
     "nodegit": "^0.23.0"
   },

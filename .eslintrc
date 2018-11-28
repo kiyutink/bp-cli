@@ -81,7 +81,10 @@
       "exceptAfterSingleLine": true
     }],
     "max-len": ["error", {
-      "code": 100
+      "code": 100,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreComments": true
     }],
     "max-lines": ["error", {
       "skipBlankLines": true,
