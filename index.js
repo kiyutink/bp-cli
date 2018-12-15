@@ -6,7 +6,7 @@ const Git = require('nodegit');
 const minimist = require('minimist');
 const rimraf = require('rimraf');
 const chalk = require('chalk');
-const Spinner = require('cli-spinner').Spinner;
+const ora = require('ora');
 const printBadArgumentsError = require('./printBadArgumentsError');
 const boilerplateRepoUrl = 'https://github.com/kiyutink/frontend-boilerplate.git';
 const args = minimist(process.argv.slice(2));
@@ -28,10 +28,7 @@ else if (args._[0] === 'g') {
       process.exit(1);
     }
     else {
-      const spinner = new Spinner(
-        chalk.cyan(`Initializing a boilerplate project in ${dirPath}`)
-      );
-      spinner.setSpinnerString(1);
+      const spinner = ora(chalk.cyan(`Initializing a boilerplate project in ${dirPath}`));
       spinner.start();
 
       Git.Clone.clone(boilerplateRepoUrl, dirPath).then(

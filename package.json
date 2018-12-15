@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "cli-spinner": "^0.2.8",
     "minimist": "^1.2.0",
-    "nodegit": "^0.23.0"
+    "nodegit": "^0.23.0",
+    "ora": "^3.0.0"
   },
   "bin": {
     "fbp": "./index.js"
