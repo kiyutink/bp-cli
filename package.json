@@ -23,6 +23,7 @@
     "ora": "^3.0.0"
   },
   "bin": {
-    "fbp": "./index.js"
+    "bp": "./index.js"
   }
 }
+``
