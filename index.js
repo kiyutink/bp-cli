@@ -30,7 +30,7 @@ else {
 
   Git.Clone.clone(boilerplateRepoUrl, dirPath).then(
     () => {
-      rimraf('.git', {}, () => {
+      rimraf(path.join(dirPath, '.git'), {}, () => {
         console.log(chalk.green('\nDone!'));
       });
       spinner.stop();
