@@ -1,6 +1,6 @@
 {
   "name": "@kiyutink/fbp",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A cli to scaffold projects from git repositories",
   "homepage": "https://github.com/kiyutink/bp-cli",
   "repository": {
