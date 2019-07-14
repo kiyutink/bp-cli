@@ -71,7 +71,7 @@
     "indent": ["error", 2, {
       "SwitchCase": 1
     }],
-    "jsx-quotes": ["error", "prefer-single"],
+    "jsx-quotes": ["error", "prefer-double"],
     "key-spacing": "error",
     "keyword-spacing": ["error", {
       "before": true,
@@ -114,7 +114,7 @@
     "one-var": ["error", "never"],
     "operator-linebreak": "error",
     "quote-props": ["error", "consistent-as-needed"],
-    "quotes": ["error", "single", {
+    "quotes": ["error", "double", {
       "allowTemplateLiterals": true
     }],
     "semi": ["error", "always"],
